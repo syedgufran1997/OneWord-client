@@ -7,6 +7,7 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 const Articles = () => {
 
     const [news, setNews] = useState([]);
+    
     const [page,setPage] = useState(0);
   
     useEffect(() => {
